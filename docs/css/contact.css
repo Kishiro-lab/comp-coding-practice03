@@ -371,12 +371,14 @@ header .burger-btn .menu {
   padding: 10px;
   width: 100%;
   display: block;
+  background-color: #fff;
 }
 .contact-wrapper .contact-inner .form-item .textarea {
   border: 1px solid #333;
   color: #333;
   padding: 10px;
   width: 100%;
+  background-color: #fff;
 }
 .contact-wrapper .contact-inner .form-item .required {
   display: inline-block;

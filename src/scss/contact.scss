@@ -28,12 +28,12 @@ $color-sample: #00ef58;
 /* ----------------------------- */
 html {
   font-size: 62.5%;
+  color-scheme: light;
 }
 body {
   font-size: 1.6rem;
   font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
   color: #333;
-  background-color: #fff;
   &.masked {
     &::after {
       content: "";
@@ -347,15 +347,13 @@ header {
         color: #333;
         padding: 10px;
         width: 100%;
-        display: block;
-        background-color: #fff;
+        display: block;        
       }
       .textarea {
         border: 1px solid #333;
         color: #333;
         padding: 10px;
         width: 100%;
-        background-color: #fff;
       }
       .required {
         display: inline-block;
